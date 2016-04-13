@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Is Up",
+          "submenu": [
+            {
+              "label": "Check Website",
+              "command": "isup:Check Website"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

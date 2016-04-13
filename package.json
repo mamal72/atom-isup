@@ -1,0 +1,32 @@
+{
+  "name": "isup",
+  "main": "./lib/isup",
+  "version": "0.1.0",
+  "description": "Simple Atom package to check website up or down status using isitup",
+  "scripts": {
+    "lint": "eslint ./lib"
+  },
+  "keywords": [
+    "ping",
+    "uptime",
+    "website",
+    "site",
+    "status"
+  ],
+  "activationCommands": {
+    "atom-workspace": "isup:Check Website"
+  },
+  "repository": "https://github.com/atom/isup",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^7.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-u": "isup:Check Website"
+  },
+  ".isup": {
+    "escape": "isup:Hide Dialog"
+  },
+  ".isup": {
+    "enter": "isup:Button Click"
+  }
+}
