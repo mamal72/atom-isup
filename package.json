@@ -1,7 +1,7 @@
 {
   "name": "isup",
   "main": "./lib/isup",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Simple Atom package to check website up or down status using isitup",
   "scripts": {
     "lint": "eslint ./lib"
