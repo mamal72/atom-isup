@@ -1,7 +1,8 @@
 {
   "name": "isup",
   "main": "./lib/isup",
-  "version": "0.4.0",
+  "version": "0.5.0",
+  "license": "MIT",
   "description": "Simple Atom package to check website up or down status using isitup",
   "scripts": {
     "lint": "eslint ./lib"
@@ -16,8 +17,14 @@
   "activationCommands": {
     "atom-workspace": "isup:Check Website"
   },
-  "repository": "https://github.com/mamal72/atom-isup",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mamal72/atom-isup"
+  },
+  "bugs": {
+    "url": "https://github.com/mamal72/atom-isup/issues"
+  },
+  "homepage": "https://github.com/mamal72/atom-isup",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
