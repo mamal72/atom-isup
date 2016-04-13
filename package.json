@@ -1,7 +1,7 @@
 {
   "name": "isup",
   "main": "./lib/isup",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "license": "MIT",
   "description": "Simple Atom package to check website up or down status using isitup",
   "scripts": {
